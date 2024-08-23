@@ -20,6 +20,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LIME_SWORD = ITEMS.register("lime_sword",
             ()-> new LevitationSwordItem(ModTiers.LIME,8,1300f,new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> LIME_PICKAXE = ITEMS.register("lime_pickaxe",
+            () ->new PickaxeItem(ModTiers.LIME,9,900f,new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> MUSIC_BOX_DISC = ITEMS.register("music_box_disc",
             () -> new RecordItem(8, ModSounds.MUSIC_BOX,new Item.Properties().stacksTo(1),4800));
     public static final RegistryObject<Item> SIVA_BOX_DISC = ITEMS.register("siva_box_disc",
