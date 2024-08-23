@@ -1,0 +1,30 @@
+{
+  "item.code.lime" : "Lime",
+  "item.code.raw_lime": "Raw Lime",
+  "item.code.lime_sword" : "Lime Sword",
+
+  "item.code.music_box_disc": "I Want It that Way",
+  "item.code.music_box_disc.desc": "I want it that way - Siva",
+
+  "item.code.con_calma_disc": "Con calme",
+  "item.code.con_calma_disc.desc": "Con Calma Neyamr",
+
+  "item.code.miss_me_disc" : "MIss Me",
+  "item.code.miss_me_disc.desc" : "I Like the Way kiss Me",
+
+  "item.code.siva_box_disc": "Siva U Love This",
+  "item.code.siva_box_disc.desc": "Fav Song - Siva",
+
+  "sounds.code.music_box" : "Music Box",
+  "sounds.code.siva_box" : "Siva Box",
+  "sounds.code.con_calma" : "Con calma",
+  "sounds.code.miss_me" : "Miss Me",
+
+
+
+
+
+  "creativemodetab.lime" : "Lime "
+
+
+}

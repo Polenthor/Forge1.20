@@ -1,0 +1,26 @@
+{
+  "music_box": {
+    "subtitles" : "sounds.code.music_box",
+    "sounds": [
+      "code:music_box"
+    ]
+  },
+  "siva_box": {
+    "subtitles" : "sounds.code.siva_box",
+    "sounds": [
+      "code:siva_box"
+    ]
+  },
+"con_calma": {
+"subtitles" : "sounds.code.con_calma",
+"sounds": [
+"code:con_calma"
+  ]
+  },
+  "miss_me": {
+  "subtitles" : "sounds.code.miss_me",
+  "sounds": [
+    "code:miss_me"
+  ]
+}
+}
