@@ -71,6 +71,8 @@ if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.MUSIC_BOX_DISC);
             event.accept(ModItems.SIVA_BOX_DISC);
             event.accept(ModItems.LIME_SWORD);
+            event.accept(ModItems.LIME_PICKAXE);
+            event.accept(ModBlock.LIME_BLOCK);
             event.accept(ModItems.CON_CALMA_DISC);
             event.accept(ModItems.MISS_ME_DISC);
         }

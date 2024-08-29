@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, code.MOD_ID);
+    DeferredRegister.create(ForgeRegistries.ITEMS, code.MOD_ID);
 
     public static final RegistryObject<Item> LIME = ITEMS.register("lime",
             () -> new Item(new Item.Properties().food(ModFoods.DIAMOND_APPLE)));
