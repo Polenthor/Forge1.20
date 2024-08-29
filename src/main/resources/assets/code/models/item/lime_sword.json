@@ -1,6 +1,6 @@
 {
 "parent": "item/handheld",
 "textures": {
-"layer0": "code:item/lime_pickaxe"
+"layer0": "code:item/lime_sword"
 }
 }
