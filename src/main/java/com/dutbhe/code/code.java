@@ -30,6 +30,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
+import static com.dutbhe.code.block.ModBlock.BLOCKS;
+
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(code.MOD_ID)
 public class code
@@ -46,6 +48,7 @@ public class code
         ModCreativeModTab.register(modEventBus);
         ModBlock.register(modEventBus);
         ModSounds.register(modEventBus);
+
 
 
         modEventBus.addListener(this::commonSetup);
