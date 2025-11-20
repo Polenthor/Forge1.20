@@ -34,6 +34,9 @@ public class ModBlock {
     public static final RegistryObject<Block> LIME_BLOCK = registerBlock("lime_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
+    public static final RegisrtyObject<Block> RUBY_BLOCK = registerblock("ruby_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
 
         private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
             return BLOCKS.register(name, block);
